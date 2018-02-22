@@ -4,7 +4,7 @@
 
 from flask import Flask, request, redirect, url_for
 
-from forumdb_initial2 import getPosts, addPost
+from forum02db import getPosts, addPost
 
 app = Flask(__name__)
 
